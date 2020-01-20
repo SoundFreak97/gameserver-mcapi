@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Gameserver\\Minecraft\\": "src/"
+            "Gameserver\\MinecraftAPI\\": "src/"
         }
     }
 }
