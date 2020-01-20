@@ -1,0 +1,25 @@
+{
+    "name": "gameserver/minecraftapi",
+    "type": "library",
+    "description": "Minecraft API",
+    "homepage": "http://www.dein-gameserver.de/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Timo Winkler",
+            "email": "timo.winkler97@gmail.com",
+            "homepage": "https://www.soundfreak97.dev/"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Gameserver\\Minecraft\\": "src/"
+        }
+    }
+}
